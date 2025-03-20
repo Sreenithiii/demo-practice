@@ -53,26 +53,36 @@ section{
    
 }
 section > div {
-
 padding-top: 40px;
 }
 
 @media screen and(min-width:360px) and (max-width:480px )
 {
  header{
-    right: 0;
-    padding: 0;
     background-color: black;
-    color: white;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    padding: 5px;
+    padding-bottom: 10px;
+    width: 98vw;
+    margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 
  }
 nav{
-    background-color: black;
-    width: 100vw;
-    color: white;
-    position: fixed;
-    bottom: 0;
+   gap:0.5 rem;
+   justify-content: space-around;
     
+}
+a > button {
+    font-size: large;
+    color: whitesmoke;
+    background-color: black;
+  font-weight: 200;
 }
     
 }
